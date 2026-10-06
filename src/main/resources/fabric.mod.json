@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "shadowman",
+  "version": "${version}",
+  "name": "ShadowMan Horror Entity",
+  "description": "An original horror entity for Minecraft 1.20.1 Fabric.",
+  "authors": ["HamZa PlayX"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.hamzaplayx.shadowman.ShadowManMod"],
+    "client": ["com.hamzaplayx.shadowman.ShadowManClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
